@@ -3,7 +3,7 @@
  * URL of the VCF-A (Aria Automation) endpoint.
  */
 variable "vcfa_url" {
-  type = string
+  type        = string
   description = "The VCFA URL: https://<FQDN>"
 }
 
