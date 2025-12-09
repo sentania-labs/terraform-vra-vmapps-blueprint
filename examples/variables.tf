@@ -4,6 +4,7 @@
  */
 variable "vcfa_url" {
   type = string
+  description = "The VCFA URL: https://<FQDN>"
 }
 
 variable "vcfa_organization" {
