@@ -36,5 +36,5 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_blueprint"></a> [blueprint](#output\_blueprint) | n/a |
+| <a name="output_blueprint"></a> [blueprint](#output\_blueprint) | The resulting object of the blueprint created, including name, and id. |
 <!-- END_TF_DOCS -->
