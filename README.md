@@ -28,9 +28,9 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_blueprint_name"></a> [blueprint\_name](#input\_blueprint\_name) | n/a | `any` | n/a | yes |
-| <a name="input_content"></a> [content](#input\_content) | n/a | `any` | n/a | yes |
-| <a name="input_projectid"></a> [projectid](#input\_projectid) | n/a | `any` | n/a | yes |
+| <a name="input_blueprint_name"></a> [blueprint\_name](#input\_blueprint\_name) | The name of the Blueprint to create as it appears in the designer | `string` | n/a | yes |
+| <a name="input_content"></a> [content](#input\_content) | The YAML content of the blueprint | `string` | n/a | yes |
+| <a name="input_projectid"></a> [projectid](#input\_projectid) | The id of the Project | `string` | n/a | yes |
 
 ## Outputs
 
