@@ -6,7 +6,7 @@ provider "vra" {
 }
 
 module "simpleIACblueprint" {
-  source   = "../../"
+  source   = "../"
   for_each = var.projects
 
   projectid      = each.value.project_id
