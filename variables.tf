@@ -10,3 +10,9 @@ variable "content" {
   type        = string
   description = "The YAML content of the blueprint"
 }
+
+variable "request_scope_org" {
+  type        = bool
+  description = "Flag to indicate if the blueprint can be shared with other projects"
+  default     = false
+}

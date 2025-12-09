@@ -31,6 +31,7 @@ No modules.
 | <a name="input_blueprint_name"></a> [blueprint\_name](#input\_blueprint\_name) | The name of the Blueprint to create as it appears in the designer | `string` | n/a | yes |
 | <a name="input_content"></a> [content](#input\_content) | The YAML content of the blueprint | `string` | n/a | yes |
 | <a name="input_projectid"></a> [projectid](#input\_projectid) | The id of the Project | `string` | n/a | yes |
+| <a name="input_request_scope_org"></a> [request\_scope\_org](#input\_request\_scope\_org) | Flag to indicate if the blueprint can be shared with other projects | `bool` | `false` | no |
 
 ## Outputs
 
